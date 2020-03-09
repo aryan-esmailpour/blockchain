@@ -28,14 +28,16 @@ sudo apt install docker.io
 
 Now install **docker-compose** by the following command:
 ```bash
-sudo apt install curl```
+sudo apt install curl
+```
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 Now check the version:
 ```bash
-docker-compose --version```
+docker-compose --version
+```
 
 Install **nvm** and **node**.  first nvm:
 ```bash
