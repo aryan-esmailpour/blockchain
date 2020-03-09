@@ -32,6 +32,8 @@ sudo apt install curl
 ```
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+```bash
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 Now check the version:
@@ -42,10 +44,18 @@ docker-compose --version
 Install **nvm** and **node**.  first nvm:
 ```bash
     sudo apt-get update
+```
+```bash
     sudo apt-get install build-essential libssl-dev
-	curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
-	bash install_nvm.sh
-	source ~/.profile
+```
+```bash
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
+```
+```bash
+bash install_nvm.sh
+```
+```bash
+source ~/.profile
 ```
 Now for install node, run the command:
 ```bash
@@ -59,7 +69,9 @@ sudo apt-get install git
 ##  Clone Project
 
 Now you can by the following command get the project:
-
+```bash
+git clone https://gitlab.com/hamid.damadi/blockchain98.git
+```
 Go to project folder and run command:
 ```bash
 docker-compose up
