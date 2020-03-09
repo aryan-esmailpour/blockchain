@@ -43,10 +43,10 @@ docker-compose --version
 
 Install **nvm** and **node**.  first nvm:
 ```bash
-    sudo apt-get update
+sudo apt-get update
 ```
 ```bash
-    sudo apt-get install build-essential libssl-dev
+sudo apt-get install build-essential libssl-dev
 ```
 ```bash
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
