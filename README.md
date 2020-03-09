@@ -1,9 +1,8 @@
 
-![Hyperledger Sawtooth](images/sawtooth_logo_light_blue-small.png)
 
 # Blockchain98
 
-This essay is an instruction to execute projects of blockchain cource (Mathematics and computer science, Amirkabir university of technology ).
+This essay is an instruction to execute projects of blockchain course (Mathematics and computer science, Amirkabir university of technology ).
 ## Contents
 
 - [Prerequisite](#Prerequisite)
@@ -137,7 +136,7 @@ npm run start
 ```
 Now open a browser and go to **http://localhost:3000**. If you see the greeting , everything is ready.
 ## Test
-The following routes are ready. You should develope in according to your paln.
+The following routes are ready. You should develop the project in according to your plan.
 
 - **http://localhost:3000/register** to register.
 - **http://localhost:3000/login** to login.
@@ -145,7 +144,7 @@ The following routes are ready. You should develope in according to your paln.
 
 After login, click `تولید کلید` to generate key pair. Save the private key. Go to **http://localhost:3000/chargeAccount**. Fill the form and sign it with the private key. After the transaction you should see the change in balance. 
 
-## Developement
+## Development
 
 Now its your turn ...!
 
