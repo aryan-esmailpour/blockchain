@@ -25,7 +25,7 @@ You should first install [Docker](https://www.docker.com/what-docker). You can i
 sudo apt install docker.io
 ```
 
-Now install **docker-compose** by the following command:
+Now install **docker-compose** by the following commands:
 ```bash
 sudo apt install curl
 ```
@@ -61,13 +61,13 @@ Now for install node, run the command:
 nvm install 12
 ```
 
-The best way to get and manage project is **git**. install it with:
+**git** is the best way to get and manage project. install it with:
 ```bash
 sudo apt-get install git
 ```
 ##  Clone Project
 
-Now you can by the following command get the project:
+Now you can get the project by the following command:
 ```bash
 git clone https://gitlab.com/hamid.damadi/blockchain98.git
 ```
@@ -88,9 +88,7 @@ all required components in separate containers. Many of the components will be a
 - **MongoDB** 
 
 In bash you can shutdown these components with the key combination: `ctrl-C`.
-You can shutdown _and_ remove the containers (destroying their data), with the
-command:
-
+You can shutdown _and_ remove the containers (destroying their data), with the command:
 ```bash
 docker-compose down
 ```
@@ -142,13 +140,13 @@ The following routes are ready. You should develop the project in according to y
 - **http://localhost:3000/login** to login.
 - **http://localhost:3000/chargeAccount** to charge account.
 
-After login, click `تولید کلید` to generate key pair. Save the private key. Go to **http://localhost:3000/chargeAccount**. Fill the form and sign it with the private key. After the transaction you should see the change in balance. 
+After register and login, click `تولید کلید` to generate key pair. Save the private key. Go to **http://localhost:3000/chargeAccount**. Fill the form and sign it with the private key. After the transaction you should see the change in balance. 
 
 ## Development
 
 Now its your turn ...!
 
-please contact me if you have questions.
+please contact me if you have any questions.
 
 
 
