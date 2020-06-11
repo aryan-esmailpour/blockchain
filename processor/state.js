@@ -10,7 +10,7 @@ class BC98State {
     this.context = context
     this.addressCache = new Map([])
   }
-// comment
+
   encodeFunction (payload, pathFile, pathMessage) {
     try {
       const root = pb.loadSync(pathFile)
