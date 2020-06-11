@@ -8,8 +8,37 @@ message Account {
 
     string balance = 3;
 
+    required string money = 4;
+
+    repeated string job_id = 5;
+
+    string hash_rate = 6;
 }
 
 message AcountContainer {
     repeated Account entries = 1;
+}
+
+Account Person {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+  required string money = 4;
+  optional int32 job_id = 5;
+}
+
+
+Person Solver{
+  required string hash_rate = 1;
+  optional string min_prize_wanted = 2;
+  required string last_try = 3;
+  required repeated string pow_string = 4;
+}
+
+
+Person Asker{
+required string hash = 1;
+required float prize = 2;
+required string min_person_wanted = 3;
+required string min_hasrhrate_wanted = 4; 
 }

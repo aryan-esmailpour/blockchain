@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message CreateJob{
+
+    required string jobid = 1;
+
+    required float prize = 2;
+
+    optional float min_hashrate= 3;
+
+    string type = 5;
+
+    string hash = 6;
+}
+
+
+
+message StartJob{
+
+    string jobid = 1;
+
+    string hashrate = 2;
+
+    string last_try = 3;
+
+    string powString = 4;
+
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message Job{
+
+    string jobid = 1;
+
+    repeated string solver_id = 2;
+
+    string asker= 3;
+
+    required string prize = 4;
+
+    string status = 5;
+
+    string hash = 6;
+}
